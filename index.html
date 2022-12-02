@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft Web</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body class="bodyBackground">
+
+	<center>
+
+	<h2 class="btn-primary">MINECRAFT</h2>
+
+	<div id="headInfo" class="btn-danger">
+		<h3>Largura atual  = <span id="largura">30</span></h3>
+		<h3>Altura atual  = <span id="altura">30</span></h3>
+	</div>
+     <canvas width="1000" height="600" id="minecraftCanvas"></canvas>
+	 <br>
+	 <div data-toggle="collapse" data-target="#inventory" style="border-width:1px;border-color:rgb(255, 255, 255);padding: 10px;background-color: chartreuse;">Inventory</div>
+	 <div id="inventory" class="collapse" style="border-width:2px;border-style: double;">
+		<h3 style="background-color:aliceblue;">Your Inventory</h3>
+		<div style="background-color:aliceblue;padding:20px">
+		 <img src="minecraft inventory.png" width="90%" height="130px">
+		</div>
+	 </div>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
